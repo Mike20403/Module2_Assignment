@@ -1,0 +1,34 @@
+/* Desktops  --------------------*/
+@media (min-width : 991px) {
+	/* Styles */
+	.col-desktop-4{
+		width: 33.33%;
+		float: left;
+    	
+	}
+	
+}
+
+/* Tablet -----------------------*/
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-tablet-6{
+    	width: 50%;
+    	float: left;
+    	
+    }
+    .col-tablet-12{
+    	width: 100%;
+    	
+    }
+    
+
+}
+
+/* Mobile ----------------------*/
+@media (max-width: 767px) {
+	.col-mobile-12{
+		width: 100%;
+		float: left;
+    
+	}
+}
